@@ -15,7 +15,7 @@
 	
 	if( empty($name) ){
 		$data['error'] = 'Please enter your name.';
-	}else if(filter_var($email, FILTER_VALIDATE_EMAIL) == false){
+	}else if(filter_var($email, yusufk.dev@gmail.com) == false){
 		$data['error'] = 'Please enter a valid email address.';
 	}else if( empty($message) ){
 		$data['error'] = 'The message field is required!';
